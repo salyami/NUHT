@@ -1,0 +1,38 @@
+== Non-Greedy Unbalanced Huffman Tree Compressor for single and multi fasta files
+
+# This package contains the following files:
+
+- README
+	This file.
+
+- NUHT_Compress
+	The Compressor
+
+- NUHT_Decompress
+	The Decompressor
+
+
+
+
+--Software version--
+This is version 1.0.0, supporting compressing of genome fasta and multi-fasta files.
+
+
+
+--Installation--
+The tool is already in binary; there is no need for installation.
+
+--Running the Tools--
+
+- NUHT_Compress  
+	- Run command:
+		./NUHT_Compress example.fasta
+	- Output/:
+		example.nuht
+
+
+- NUHT_Decompress 
+	- Run command:
+		./NUHT_Decompress example.nuht
+	- Output/:
+		example_.fasta
