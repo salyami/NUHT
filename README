@@ -26,13 +26,20 @@ The tool is already in binary; there is no need for installation.
 
 - NUHT_Compress  
 	- Run command:
-		./NUHT_Compress example.fasta
+		Mac & Linux:
+			./NUHT_Compress example.fasta
+		Windows:
+			NUHT_Compress.exe example.fasta
 	- Output/:
 		example.nuht
 
 
 - NUHT_Decompress 
 	- Run command:
-		./NUHT_Decompress example.nuht
+		Mac & Linux:
+			./NUHT_Decompress example.nuht
+		Windows:
+			NUHT_Decompress.exe example.nuht
+		
 	- Output/:
 		example_.fasta
